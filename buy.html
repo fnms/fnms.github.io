@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <title>Buy | SMB Accounting Solution</title>
+</head>
+
+<body>
+    <header class="header-banner">
+        <div data-gjs="navbar" class="navbar">
+            <div class="navbar-container">
+                <div data-gjs="navbar-items" class="navbar-submenu-items">
+                    <nav data-gjs="navbar-menu" class="navbar-menu">
+                        <a href="#" class="navbar-menu-link">Français</a>
+                        <a href="./#contact" class="navbar-menu-link">Contact us</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header-main container-width">
+            <div class="logo-container">
+                <a href="index.html"><img alt="SMB Accounting Logo" id="navbar-brand"
+                        src="./img/SMB-Logo-Colors.jpg" /></a>
+            </div>
+            <div class="row" style="padding-right: 0;">
+                <div data-gjs="navbar" class="navbar">
+                    <div class="navbar-container">
+                        <div id="i3oa4l" class="navbar-burger">
+                            <div class="navbar-burger-line"></div>
+                            <div class="navbar-burger-line"></div>
+                            <div class="navbar-burger-line"></div>
+                        </div>
+                        <div data-gjs="navbar-items" class="navbar-items-c">
+                            <nav class="menu" data-gjs="navbar-menu">
+                                <a href="./#features" class="menu-item">Features</a>
+                                <a href="./#pricing" class="menu-item">Pricing</a>
+                                <a href="./#bookkeepers" class="menu-item">Accountants & Bookkeepers</a>
+                                <a href="./#demo" class="menu-item">Demo</a>
+                                <a href="#" class="cta-menu-item">Buy Now</a>
+                                <a href="./#login" class="cta-menu-item">Login</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="flex-title-light">Buy Now</div>
+        <form action="https://formspree.io/sales@smbaccounting.ca" method="POST" class="form buy_form">
+            <div class="row">
+                <label for="name" class="label">Name</label>
+                <input id="name" class="input" type="text" name="Name" autofocus="true" required>
+            </div>
+            <div class="row">
+                <label for="email" class="label">Email</label>
+                <input id="email" class="input" type="email" name="_replyto" required>
+            </div>
+            <div class="row">
+                <label for="phone" class="label">Telephone</label>
+                <input id="phone" class="input" type="text" name="Telephone" required>
+            </div>
+            <div class="row">
+                <label for="acc_name" class="label">Account Name</label>
+                <input id="acc_name" class="input" type="text" name="Account Name" required>
+            </div>
+            <div class="row">
+                <label for="version" class="label">Version</label>
+                <select id="version" class="select" name="Version" required>
+                    <option value=""></option>
+                    <option value="SMBaccounting">SMBaccounting</option>
+                    <option value="SMBaccounting PR + HR">SMBaccounting PR + HR</option>
+                    <option value="SMBaccounting Bookkeeping">SMBaccounting Bookkeeping</option>
+                </select>
+            </div>
+            <div class="row">
+                <label for="nos_users" class="label">Number of Users</label>
+                <input id="nos_users" class="input" type="number" name="No of Users"  min="1" required>
+            </div>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_next" value="https://smbaccounting.ca/"/>
+            <div class="row">
+                <p>Please allow 3 hours for account setup</p><br>
+            </div>
+            <div class="row">
+                <h2>Net 30 days</h2>
+            </div>
+            <input type="submit" value="Send" class="button pro">
+        </form>
+    </div>
+    <button onclick="topFunction()" id="toTopBtn" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px" width="16" height="16"
+            viewBox="0 0 307.054 307.054" style="enable-background:new 0 0 307.054 307.054;" xml:space="preserve"
+            class="">
+            <g>
+                <g>
+                    <g id="_x34_85._Up">
+                        <g>
+                            <path
+                                d="M302.445,205.788L164.63,67.959c-6.136-6.13-16.074-6.13-22.203,0L4.597,205.788c-6.129,6.132-6.129,16.069,0,22.201     l11.101,11.101c6.129,6.136,16.076,6.136,22.209,0l115.62-115.626L269.151,239.09c6.128,6.136,16.07,6.136,22.201,0     l11.101-11.101C308.589,221.85,308.589,211.92,302.445,205.788z"
+                                data-original="#000000" class="" style="fill:#FFFFFF" data-old_color="#ffffff"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </button>
+    <script>
+        var items = document.querySelectorAll("#i3oa4l");
+        for (var i = 0, len = items.length; i < len; i++) {
+            (function () {
+                var e,
+                    t = 0,
+                    n = (function () {
+                        var e,
+                            t = document.createElement("void"),
+                            n = {
+                                transition: "transitionend",
+                                OTransition: "oTransitionEnd",
+                                MozTransition: "transitionend",
+                                WebkitTransition: "webkitTransitionEnd"
+                            };
+                        for (e in n)
+                            if (void 0 !== t.style[e]) return n[e];
+                    })(),
+                    r = function (e) {
+                        var t = window.getComputedStyle(e),
+                            n = t.display,
+                            r = (t.position,
+                                t.visibility,
+                                t.height,
+                                parseInt(t["max-height"]));
+                        if ("none" !== n && "0" !== r) return e.offsetHeight;
+                        (e.style.height = "auto"),
+                        (e.style.display = "block"),
+                        (e.style.position = "absolute"),
+                        (e.style.visibility = "hidden");
+                        var i = e.offsetHeight;
+                        return (
+                            (e.style.height = ""),
+                            (e.style.display = ""),
+                            (e.style.position = ""),
+                            (e.style.visibility = ""),
+                            i
+                        );
+                    },
+                    i = function (e) {
+                        t = 1;
+                        var n = r(e),
+                            i = e.style;
+                        (i.display = "block"),
+                        (i.transition = "max-height 0.25s ease-in-out"),
+                        (i.overflowY = "hidden"),
+                        "" === i["max-height"] && (i["max-height"] = 0),
+                            0 === parseInt(i["max-height"]) ?
+                            ((i["max-height"] = "0"),
+                                setTimeout(function () {
+                                    i["max-height"] = n + "px";
+                                }, 10)) :
+                            (i["max-height"] = "0");
+                    },
+                    a = function (r) {
+                        if ((r.preventDefault(), !t)) {
+                            var a = this.closest("[data-gjs=navbar]"),
+                                o = a.querySelector("[data-gjs=navbar-items]");
+                            i(o),
+                                e ||
+                                (o.addEventListener(n, function () {
+                                        t = 0;
+                                        var e = o.style;
+                                        0 === parseInt(e["max-height"]) &&
+                                            ((e.display = ""), (e["max-height"] = ""));
+                                    }),
+                                    (e = 1));
+                        }
+                    };
+                "gjs-collapse" in this || this.addEventListener("click", a),
+                    (this["gjs-collapse"] = 1);
+            }.bind(items[i])());
+        }
+    </script>
+    <script>
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("toTopBtn").style.display = "block";
+            } else {
+                document.getElementById("toTopBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+
+</html>
