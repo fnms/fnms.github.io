@@ -27,6 +27,10 @@ div {
     font-weight: normal;
 }
 
+input, select {
+    outline: none;
+}
+
 .clearfix {
     clear: both;
 }
@@ -45,6 +49,7 @@ div {
     background-attachment: scroll;
     background-size: auto;
     background-color: #ffffff;
+    box-shadow: 0px 0 5px 2px #00000012;
 }
 
 .header-main {
@@ -496,7 +501,7 @@ div {
     padding: 10px 15px;
 }
 
-.input {
+.input , .select{
     width: 100%;
     margin-bottom: 15px;
     padding: 10px 10px 10px 10px;
@@ -846,10 +851,6 @@ div {
     min-height: 50px;
 }
 
-.input:active {
-    border: 2px solid #0aa245;
-}
-
 #iqiifn {
     color: black;
     width: 131px;
@@ -1170,4 +1171,56 @@ div {
     }
 }
 
+.container {
+    background-color: #0aa245;
+    padding: 100px 0;
+
+    p {
+        font-weight: 500;
+        font-size: 1.2em;
+        color: #fff;
+        margin: 25px 0 0 0;
+    }
+    h2 {
+        color: #fff;
+        margin: 10px 0;
+    }
+    
+    @media (max-width: 768px) {
+        p, h2 {
+            width: 
+            text-align: center;
+        }
+    }
+}
+
+.buy_form {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+
+    .label {
+        color: #fff !important;
+        width: 100%;
+        max-width: 240px;
+        display: inline-block;
+        padding: 10px 0;
+    }
+    .input {
+        width: 100%;
+        max-width: 450px;
+        display: inline-block;
+        margin-left: auto;
+        border: none;
+    }
+    .select {
+        width: 100%;
+        max-width: 450px;
+        margin-left: auto;
+        border: none;
+    }
+    .button {
+        margin-top: 20px;
+    }
+}
 /*# sourceMappingURL=style.css.map */
