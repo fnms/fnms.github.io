@@ -65,7 +65,7 @@ input, select {
 
 .logo-container {
   float: left;
-  width: 8%;
+  width: 45%;
 }
 
 @media (max-width: 768px) {
